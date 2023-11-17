@@ -255,7 +255,6 @@
   /* room */
   .room {
        width: 100%;
-       /* min-height: 50vh; */
        background-image: url(../image/layered-waves-haikei.svg);
        background-size: cover;
        background-repeat: no-repeat;
@@ -338,6 +337,24 @@
        color: #888;
   }
 
+  .more{
+     width: 15%;
+     height: 15%;
+     margin-bottom: 3em;
+     padding:1.5%;
+     /* background-color: #fff; */
+     border: 2px solid #ed078b;
+     background-color: transparent;
+     outline: none;
+     border-radius: 2em;
+     transition: 1s;
+  }
+
+  .more:hover{
+     background-color: #ed078b;
+     color: #fff;
+  }
+
   /*  end room  */
 
 
@@ -346,6 +363,7 @@
   .event {
        width: 100%;
        min-height: 100vh;
+       padding-top:0.1em ;
        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../image/Cover-2.jpg);
        background-repeat: no-repeat;
        background-size: cover;
