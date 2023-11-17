@@ -337,22 +337,22 @@
        color: #888;
   }
 
-  .more{
-     width: 15%;
-     height: 15%;
-     margin-bottom: 3em;
-     padding:1.5%;
-     /* background-color: #fff; */
-     border: 2px solid #ed078b;
-     background-color: transparent;
-     outline: none;
-     border-radius: 2em;
-     transition: 1s;
+  .more {
+       width: 15%;
+       height: 15%;
+       margin-bottom: 3em;
+       padding: 1.5%;
+       /* background-color: #fff; */
+       border: 2px solid #ed078b;
+       background-color: transparent;
+       outline: none;
+       border-radius: 2em;
+       transition: 1s;
   }
 
-  .more:hover{
-     background-color: #ed078b;
-     color: #fff;
+  .more:hover {
+       background-color: #ed078b;
+       color: #fff;
   }
 
   /*  end room  */
@@ -363,12 +363,10 @@
   .event {
        width: 100%;
        min-height: 100vh;
-       padding-top:0.1em ;
        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../image/Cover-2.jpg);
        background-repeat: no-repeat;
        background-size: cover;
        position: relative;
-       margin-bottom: 5em;
   }
 
   .event .drawing {
@@ -418,10 +416,239 @@
 
   .drawing .view:hover {
        background-color: #f0309d;
-
   }
 
+  /* End event */
 
+  /* teacher */
+
+  .teacher-about {
+       margin-top: 1.5em;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+  }
+
+  .teacher p {
+       color: #3e3c75;
+  }
+
+  .teacher-col {
+       flex-basis: 23%;
+       margin-top: 1.5em;
+  }
+
+  .th-ph {
+       height: 22em;
+       border-radius: 3em;
+       margin-bottom: 0.5em;
+       position: relative;
+       overflow: hidden;
+  }
+
+  .th-ph img {
+       width: 100%;
+       height: 100%;
+       display: block;
+  }
+
+  .th-ph .layer {
+       background: transparent;
+       height: 100%;
+       width: 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+       transition: 0.5s;
+       /* background: rgba(226, 0, 0, 0.2); */
+  }
+
+  .th-ph .layer:hover {
+       background: rgba(226, 0, 0, 0.2);
+  }
+
+  /* .socail-media{
+     width: 60%;
+     margin: 0 auto;
+     background-color: transparent;
+     display: flex;
+     justify-content: space-around;
+} */
+  .layer .socail-media {
+       font-weight: 500;
+       color: #c7c2c2;
+       font-size: 1.5em;
+       bottom: 0;
+       left: 50%;
+       transform: translateX(-50%);
+       position: absolute;
+       opacity: 0;
+       transition: 0.5s;
+       cursor: pointer;
+  }
+
+  .layer:hover .socail-media {
+       bottom: 4%;
+       opacity: 1;
+  }
+
+  .socail-media .bx:hover {
+       color: #1f97d4;
+  }
+
+  .teacher-about .teacher-col h2 {
+       font-size: 1.5em;
+       font-weight: 500;
+  }
+
+  .teacher-col p {
+       margin-top: 0;
+       color: #888;
+  }
+
+  /* End teacher */
+
+  /* review */
+  .review {
+       width: 100%;
+       min-height: 80vh;
+       background-image: url(../image/wave-haikei.svg);
+       background-repeat: no-repeat;
+       background-size: cover;
+  }
+
+  .testimonials {
+       width: 70%;
+       margin: auto;
+       padding-top: 100px;
+       text-align: center;
+  }
+
+  .testimonials img {
+       width: 5em;
+       height: 5em;
+       margin: 15em 0 2em;
+  }
+
+  .testimonials p {
+       margin-bottom: 0;
+       font-size: 1.3em;
+       font-weight: 400;
+       color: #535099;
+  }
+
+  .testimonials .profile {
+       width: 31%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       text-align: start;
+       margin: 0 auto;
+  }
+
+  .testimonials .profile img {
+       width: 5em;
+       height: 5em;
+       margin-top: 3em;
+       border-radius: 50%;
+  }
+
+  .profile h2 {
+       color: #ed078b;
+       margin-bottom: 0.2em;
+  }
+
+  .profile p {
+       color: #666;
+  }
+
+  /* End review */
+
+  /* student-ph */
+
+  .student-ph {
+       width: 100%;
+       height: 40vh;
+       display: flex;
+  }
+
+  .student-ph img {
+       width: 18em;
+       height: 15em;
+       margin: 0 auto;
+  }
+
+  /* end student-ph */
+
+  /* -- footer -- */
+  .foot {
+       width: 100%;
+       min-height: 75vh;
+       background-color: #4255a4;
+  }
+
+  .footer {
+       width: 80%;
+       margin: auto;
+       padding-top: 6.5em;
+       text-align: start;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+  }
+
+  .footer .foot-left {
+       flex-basis: 40%;
+       color: #fff;
+  }
+
+  .foot-left p {
+       margin: 1em 0 1.5em;
+       font-size: 1em;
+       line-height: 1.6em;
+  }
+
+  .foot-left .social-icon .bx {
+       width: 2em;
+       height: 2em;
+       margin-right: 0.5em;
+       padding: 0.5em;
+       border-radius: 50%;
+       background-color: #4f63b4;
+       transition: ease-in-out 0.5s;
+  }
+
+  .social-icon .bx:hover {
+       background-color: #ed078b;
+  }
+
+  .foot-midel {
+       margin-top: 0;
+       flex-basis: 12%;
+  }
+
+  .foot-midel h2 {
+       margin-bottom: 1em;
+       color: #fff;
+  }
+
+  .foot-midel a {
+       display: block;
+       margin-bottom: 0.9em;
+       text-decoration: none;
+       color: #fff;
+       font-family: 'Fredoka', sans-serif;
+  }
+
+  .foot-midel a:hover {
+       text-decoration: underline;
+  }
+
+  .foot .copy p {
+       margin: 4em 0 1em;
+       color: #fff;
+       text-align: center;
+  }
 
 
 
@@ -429,9 +656,6 @@
   @media (max-width: 720px) {
        .header {
             min-height: 70vh;
-            /* max-width: 100%; */
-            /* background-repeat: no-repeat; */
-            /* background-size: cover;  */
        }
 
        nav {
@@ -517,7 +741,6 @@
        /* End header */
 
        /* about */
-
        .about h2 {
             font-size: 1.9em;
        }
@@ -533,7 +756,6 @@
        /* End about */
 
        /* End about */
-
        .name-room h2 {
             font-size: 1.5em;
        }
@@ -551,10 +773,15 @@
             font-size: 0.9em;
        }
 
+       .about .more {
+            width: 40%;
+            margin-top: 1em;
+            padding: 3% 0;
+       }
+
        /* End room */
 
        /* event */
-
        .event {
             min-height: 80vh;
        }
@@ -577,6 +804,43 @@
        }
 
        /*End event */
+
+       /*teacher */
+       .teacher-about {
+            display: block;
+       }
+
+       /*end teacher */
+
+       /*testimonials */
+       .testimonials img {
+            width: 3em;
+            height: 3em;
+       }
+
+       .testimonials .profile {
+            width: 100%;
+       }
+
+       /*End testimonials */
+
+       .footer {
+            display: block;
+            padding-bottom: 2.5em;
+       }
+
+       .foot-midel {
+            margin: 2em 0 0;
+       }
+       .foot .copy p{
+          font-size: 0.9em;
+          padding: 0 0.5em 1em;
+       }
+
+
+
+
+
 
 
 
