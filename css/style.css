@@ -650,6 +650,99 @@
        text-align: center;
   }
 
+  /* End footer */
+
+  /* End home page */
+
+  /* stard class page */
+
+  .class-header {
+       height: 70vh;
+       width: 100%;
+       background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../image/Cover-02.jpg);
+       background-position: center;
+       background-size: cover;
+       position: relative;
+  }
+
+  .class-header h1 {
+       margin-top: 2em;
+       margin-left: 1em;
+       text-align: left;
+       font-size: 3.5em;
+       padding-top: 100px;
+       color: #fff;
+  }
+
+  .about .row.grid {
+       display: flex;
+       flex-wrap: wrap;
+       padding-bottom: 1em;
+  }
+
+  .row .room-col.courses {
+       box-shadow: none;
+       transition: 0.5s;
+
+  }
+
+  .row .room-col.courses:hover {
+       box-shadow: 0px 0px 10px #fd7dc6;
+  }
+
+  /* end class page */
+
+  /* stard about page */
+  .about-header {
+       height: 80vh;
+       width: 100%;
+       background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../image/just-daisy-BlCJi8walFQ-unsplash.jpg);
+       background-position: center;
+       background-size: cover;
+       position: relative;
+  }
+
+  .about-header h1 {
+       margin-top: 2em;
+       margin-left: 1em;
+       text-align: left;
+       font-size: 3.5em;
+       padding-top: 100px;
+       color: #fff;
+  }
+
+  /* End about page */
+
+  /* stard blog page */
+
+  .blog-header {
+       height: 80vh;
+       width: 100%;
+       background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../image/vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
+       background-position: center;
+       background-size: cover;
+       position: relative;
+  }
+
+
+  .blog-header h1 {
+       margin-top: 2em;
+       margin-left: 1em;
+       text-align: left;
+       font-size: 3.5em;
+       padding-top: 100px;
+       color: #fff;
+  }
+
+  .locetion{
+     width: 80%;
+     margin: 3em auto;
+   }
+   
+
+
+
+
 
 
   /* Responsive css */
@@ -824,6 +917,8 @@
 
        /*End testimonials */
 
+       /* footer */
+
        .footer {
             display: block;
             padding-bottom: 2.5em;
@@ -832,12 +927,19 @@
        .foot-midel {
             margin: 2em 0 0;
        }
-       .foot .copy p{
-          font-size: 0.9em;
-          padding: 0 0.5em 1em;
+
+       .foot .copy p {
+            font-size: 0.9em;
+            padding: 0 0.5em 1em;
        }
 
+       /* End footer */
 
+
+       .about .row.grid {
+            display: block;
+            margin-bottom: 1.5em;
+       }
 
 
 

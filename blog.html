@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Fredoka:wght@400;500&display=swap"
+          rel="stylesheet">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="./css/style.css">
+     <title>Kinder garten</title>
+</head>
+
+<body>
+     <!-- header -->
+     <section class="blog-header">
+          <nav id="nab-bar">
+               <a href="#" class="logo">
+                    <img src="./image/logo.png" alt="Logo"></a>
+               <div class="nav-links" id="menu">
+                    <i class='bx bx-x' onclick="hideMenu()"></i>
+                    <ul>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="#">Class</a></li>
+                         <li><a href="Class.html">About</a></li>
+                         <li><a href="blog.html">Blog</a></li>
+                         <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <button class="enroll-btn">Enroll Now</button>
+               </div>
+
+               <i class='bx bx-menu' onclick="showMenu()"></i>
+
+          </nav>
+          <h1>Blog</h1>
+     </section>
+     <!--End header -->
+
+
+
+
+
+<!-- Javascript part -->
+<script>
+     var navLinks = document.getElementById("menu");
+     function showMenu() {
+          navLinks.style.right = "0";
+     }
+     function hideMenu() {
+          navLinks.style.right = "-200px";
+     }
+</script>
+<!-- Javascript part -->
+</body>
+</html>
