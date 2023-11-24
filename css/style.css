@@ -657,7 +657,7 @@
   /* stard class page */
 
   .class-header {
-       height: 70vh;
+       height: 80vh;
        width: 100%;
        background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../image/Cover-02.jpg);
        background-position: center;
@@ -734,11 +734,11 @@
        color: #fff;
   }
 
-  .locetion{
-     width: 80%;
-     margin: 3em auto;
-   }
-   
+  .locetion {
+       width: 80%;
+       margin: 3em auto;
+  }
+
 
 
 
@@ -934,16 +934,35 @@
        }
 
        /* End footer */
+       
+       .class-header {
+            height: 50vh;
+       }
 
+       .class-header h1 {
+            margin: 1em 0.5em 0;
+       }
 
        .about .row.grid {
             display: block;
             margin-bottom: 1.5em;
        }
 
+       .blog-header {
+            height: 50vh;
+       }
 
+       .blog-header h1 {
+            margin: 1em 0.5em 0;
+       }
 
+       .about-header {
+            height: 50vh;
+       }
 
-
+       .about-header h1 {
+            font-size: 2.5em;
+            margin: 1.5em 0.5em 0;
+       }
 
   }
